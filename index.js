@@ -1,2 +1,2 @@
 var Mousetrap = require('mousetrap');
-Mousetrap.bind('4', function() { console.log('4'); });
+Mousetrap.bind('4', function() { console.log('[INFO] pressed `4`'); });

@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var Mousetrap = __webpack_require__(/*! mousetrap */ \"./node_modules/mousetrap/mousetrap.js\");\nMousetrap.bind('4', function() { console.log('4'); });\n\n\n//# sourceURL=webpack://gather.town/./index.js?");
+eval("var Mousetrap = __webpack_require__(/*! mousetrap */ \"./node_modules/mousetrap/mousetrap.js\");\nMousetrap.bind('4', function() { console.log('[INFO] pressed `4`'); });\n\n\n//# sourceURL=webpack://gather.town/./index.js?");
 
 /***/ }),
 
