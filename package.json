@@ -1,14 +1,11 @@
 {
-  "name": "gather.town",
-  "version": "1.0.0",
-  "scripts": {},
-  "author": "YumaFuu",
-  "license": "ISC",
-  "dependencies": {
-    "mousetrap": "^1.6.5"
+  "scripts": {
+    "build": "npx esbuild --bundle index.js --outfile=dist.js"
   },
   "devDependencies": {
-    "ts-loader": "^9.5.0",
-    "webpack-cli": "^5.1.4"
+    "esbuild": "^0.19.5"
+  },
+  "dependencies": {
+    "tinykeys": "^2.1.0"
   }
 }
